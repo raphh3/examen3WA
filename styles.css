@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.url {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#createBtn,
+#copyBtn {
+  background-color: rgb(58, 178, 233);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.decoded {
+  margin-top: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

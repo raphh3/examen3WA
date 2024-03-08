@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Secret message</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <label for="message">Enter your message here :</label>
+      <input
+        type="text"
+        id="message"
+        name="message"
+        placeholder="Your message here..."
+      />
+      <input type="button" id="createBtn" name="createBtn" value="Create" />
+    </form>
+
+    <div class="url">
+      <div id="url"></div>
+      <input
+        type="button"
+        id="copyBtn"
+        style="display: none"
+        value="Copier l'URL"
+      />
+    </div>
+
+    <div id="newMessage" class="decoded"></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
